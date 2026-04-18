@@ -1,0 +1,19 @@
+# Python Automation System Configuration
+
+paths:
+  input_dir: "E:/Projects/python_automation_system/data/input"
+  output_dir: "E:/Projects/python_automation_system/data/output"
+  viz_dir: "E:/Projects/python_automation_system/data/output/visualizations"
+
+visualization:
+  dpi: 300
+  bbox_inches: "tight"
+
+# Mapping of Excel sheets to Pydantic models
+sheet_mapping:
+  stability_profile: "StabilityProfile"
+  safety_envelope: "SafetyEnvelope"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

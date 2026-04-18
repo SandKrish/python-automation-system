@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and Outputs (Exclude all Excel files but allow PNGs)
+*.xlsx
+*.xls
+data/input/
+data/output/
+!data/output/visualizations/
+data/output/visualizations/*
+!data/output/visualizations/*.png
+!data/output/visualizations/.gitkeep
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo

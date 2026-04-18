@@ -1,0 +1,26 @@
+[project]
+name = "python-automation-system"
+version = "0.1.0"
+description = "A robust professional Python automation system for Excel processing and visualization."
+authors = [
+    { name = "Sandhya Krishnan" }
+]
+dependencies = [
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+    "pydantic>=2.0.0",
+    "matplotlib>=3.7.0",
+    "pyyaml>=6.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
